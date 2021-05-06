@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8764893069941680807
+  Name: "Cube - Arcade 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_arcade_cube_004"
+  }
+}
+Assets {
   Id: 8654936168106876867
   Name: "Ball"
   PlatformAssetType: 1
