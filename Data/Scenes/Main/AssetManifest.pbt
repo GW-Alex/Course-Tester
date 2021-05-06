@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14697335523526711599
-  Name: "Bench Tile Center"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bench_center_001"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1

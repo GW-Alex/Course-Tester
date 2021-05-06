@@ -20,7 +20,7 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 8240973844596408087
-  ChildIds: 2871288073701235655
+  ChildIds: 5835004159792089663
   ChildIds: 4722101033777015801
   UnregisteredParameters {
   }
@@ -41,7 +41,7 @@ Objects {
   Name: "Cube - Arcade 04"
   Transform {
     Location {
-      X: 130
+      X: 198.376892
       Y: 490
       Z: 160
     }
@@ -165,13 +165,13 @@ Objects {
   }
 }
 Objects {
-  Id: 2871288073701235655
-  Name: "Bench Tile Center"
+  Id: 5835004159792089663
+  Name: "Basic Explosion VFX"
   Transform {
     Location {
-      X: 808.412354
-      Y: 418.597168
-      Z: -6.10351563e-05
+      X: -79.0773926
+      Y: -228.390594
+      Z: 158.571579
     }
     Rotation {
     }
@@ -182,6 +182,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -191,24 +192,17 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  Blueprint {
+    BlueprintAsset {
+      Id: 3589356964648648628
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 14697335523526711599
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
+  Relevance {
+    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -216,7 +210,7 @@ Objects {
   Name: "Ball"
   Transform {
     Location {
-      X: -170.256653
+      X: -101.879761
       Y: -223.2005
       Z: 145.519836
     }
@@ -276,7 +270,6 @@ Objects {
   }
   ParentId: 8240973844596408087
   ChildIds: 8109551544981014832
-  ChildIds: 5835004159792089663
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -295,46 +288,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-}
-Objects {
-  Id: 5835004159792089663
-  Name: "Basic Explosion VFX"
-  Transform {
-    Location {
-      Z: 6.86088562
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8089302430597746338
-  Lifespan: 10
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 3589356964648648628
-    }
-    TeamSettings {
-    }
-    Vfx {
-    }
-  }
-  Relevance {
-    Value: "mc:eproxyrelevance:medium"
   }
 }
 Objects {
@@ -393,6 +346,7 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
+      X: 68.3768921
       Z: -50
     }
     Rotation {
@@ -470,6 +424,7 @@ Objects {
   Name: "Sun Light"
   Transform {
     Location {
+      X: 68.3768921
     }
     Rotation {
       Pitch: -45.8452454
@@ -572,6 +527,7 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
+      X: 68.3768921
     }
     Rotation {
     }
@@ -654,6 +610,7 @@ Objects {
   Name: "Sky Dome"
   Transform {
     Location {
+      X: 68.3768921
     }
     Rotation {
     }
@@ -845,6 +802,7 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
+      X: 68.3768921
       Z: 500
     }
     Rotation {
@@ -973,7 +931,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 417.420105
+      X: 485.796967
       Y: 140.622864
       Z: 115
     }

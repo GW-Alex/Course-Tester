@@ -12,7 +12,7 @@ end
 
 function explosion(obj)
     print(obj.name .. " has been destroyed!")
-    propExplosion.Play()
+    propExplosion:Play()
 end
 
 trigger.beginOverlapEvent:Connect(OnBeginOverlap)
